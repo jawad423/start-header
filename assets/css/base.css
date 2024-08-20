@@ -1,0 +1,32 @@
+/*start public stype */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+ --maincolor:#0000;
+--mainfont: "Poppins", sans-serif;
+--subfont:"Inter", sans-serif;
+}
+
+a{
+    text-decoration: none;
+
+}
+ul {
+    list-style-type: none;
+}
+.container{
+    width:calc(100% - 120px);
+    margin: auto;
+    background-color: red;
+}
+.row {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/*end public stype */
